@@ -15,10 +15,14 @@ export default {
     ]
   },
 
-
+  css: [
+    // fichier SCSS dans notre projet
+    '~/assets/scss/index.scss',
+  ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
+  
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -26,14 +30,13 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
-  css: [
-    '~/assets/scss/index.scss'
-  ],
+  
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
   ],
+  
 
  
   // Build Configuration: https://go.nuxtjs.dev/config-build
