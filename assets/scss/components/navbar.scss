@@ -1,0 +1,29 @@
+.nav-cmp {
+    position: absolute;
+}
+.overall-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 7%;
+    background-color: #284745;
+    padding-top: 27px;
+    .img-burger {
+        width: 20px;
+    }
+    .img-logo {
+        width: 40px;
+        min-height: 45%;
+        padding-top: 30px;
+
+    }
+    .icon {
+        width: 16px;
+        margin-top: 30px;
+    }
+    div {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+    }
+}

@@ -1,5 +1,6 @@
 <template>
 <div class="overall">
+    <navbar class="nav-cmp"/>
     <Nuxt />
 </div>
    
